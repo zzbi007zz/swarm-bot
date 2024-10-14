@@ -1,0 +1,18 @@
+Test Case ID,Test Case Description,Test Steps,Expected Result
+TC_001,1. **Page Access and Default Loading**,"- Verify user can access the ""To Own Account"" transfer tab.
+- Ensure API fetches and displays default source account information.",Not specified
+TC_002,2. **Field Validations and Errors**,"- Ensure source and beneficiary accounts are not the same.
+- Verify transfer amount and fees validation against account balance and daily limits.
+- Test minimum transfer amount validation.
+- Validate required account number and name fields.",Not specified
+TC_003,3. **Blocked Accounts Handling**,"- Display correct error when source account is blocked for debit.
+- Display correct error when destination account is blocked for credit.",Not specified
+TC_004,4. **Currency and Fee Calculations**,"- Verify transfer amount defaults to source account currency.
+- Validate real-time exchange rate and fees for cross-currency transfers.",Not specified
+TC_005,5. **Transfer Description Validation**,- Ensure description field enforces character limit and disallows special characters.,Not specified
+TC_006,6. **Transaction Submission**,"- Test successful submission flow, redirecting to preview and confirmation screens.
+- Check responses and error messages for failed submissions.",Not specified
+TC_007,7. **Transaction Approval and Rejection**,"- Validate the approval process updates status and triggers notifications.
+- Verify rejection flow allows editing and resending of rejected requests.",Not specified
+TC_008,8. **Notifications and Emails**,"- Ensure correct notifications and emails are triggered for submission, approval, and rejection events.",Not specified
+TC_009,"The above test cases focus on thoroughly validating all user interactions, system validations, and error handling. Each scenario includes positive paths, potential issues, and edge cases for comprehensive coverage of the transfer functionality.",,Not specified
